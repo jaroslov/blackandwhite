@@ -1,0 +1,51 @@
+{
+  "name": "Black on White – Bold Keywords",
+  "author": "You + ChatGPT",
+  "globals": {
+    "background": "#FFFFFF",
+    "foreground": "#000000",
+    "caret": "#000000",
+    "selection": "#EEE",
+    "selection_border": "#777",
+    "line_highlight": "#AAA",
+    "misspelling": "#FF0000"
+  },
+  "rules": [
+    {
+      "name": "Reserved control keywords",
+      "scope": "keyword.control",
+      "font_style": "bold underline",
+      "foreground" : "#000"
+    },
+    {
+      "name": "Reserved declaration keywords",
+      "scope": "keyword.declaration",
+      "font_style": "bold",
+      "foreground" : "#000"
+    },
+    {
+      "name": "Reserved operator keywords",
+      "scope": "keyword.operator",
+      "font_style": "bold",
+      "foreground" : "#000"
+    },
+    {
+      "name": "Reserved storage keywords",
+      "scope": "storage, storage.type, storage.modifier",
+      "font_style": "",
+      "foreground" : "#555"
+    },
+    {
+      "name": "Comments",
+      "scope": "comment",
+      "foreground": "#999",
+      "font_style": ""
+    },
+    {
+      "name": "Strings",
+      "scope": "string",
+      "foreground": "#777",
+      "font_style": ""
+    }
+  ]
+}
